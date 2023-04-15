@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&family=Poppins:wght@300;600&display=swap');
+
+body {
+  font-size: 16px;
+  font-family: 'Open-Sans', sans-serif;
+  color: #494949;
+  line-height: 32px;
+}
+
+h1, h2, h3 {
+  font-family:  'Poppins', sans-serif;
+}
+
+h3 {
+  color: #A0A0A0;
+}
+
+h1 {
+  color: darkblue;
+  font-size: 40px;
+}
+
+h2 {
+  color: darkblue;
+  font-size: 24px;
+  opacity: 0.8;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.container {
+  margin: 50px auto;
+  width: 700px;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
+
+.banner {
+  background-image: url("https://images.unsplash.com/photo-1454496522488-7a8e488e8606?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80");
+  background-size:cover;
+  padding: 80px;
+}
+
+.opacity {
+  opacity: 0.5;
+}
+
+.link-medium {
+  background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+  color: #636363;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.link-medium:hover {
+  background-image: linear-gradient(to bottom, rgba(125, 255, 179, 1), rgba(125, 255, 179, 1));
+}
